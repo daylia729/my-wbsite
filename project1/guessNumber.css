@@ -1,0 +1,54 @@
+body {
+    background-color: #222;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.again {
+    width: 100px;
+    height: 40px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.number {
+    text-align: center;
+    line-height: 100px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    font-size: 50px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  50px auto;
+    width: 60%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.guess {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.check {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.message {
+    font-size: 30px;
+    font-weight: 700;
+}
+.label-score,.label-highscore {
+    font-size: 30px;
+    font-weight: 700;
+}
